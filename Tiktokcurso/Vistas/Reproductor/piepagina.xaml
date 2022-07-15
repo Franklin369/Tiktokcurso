@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tiktokcurso.Vistas.Reproductor.piepagina">
+ <Grid ColumnDefinitions="*,*,*,*,*"
+       Margin="0,5,0,30">
+  <StackLayout >
+   <Image Source="https://i.ibb.co/8jbMDFq/casa-silueta-negra-sin-puerta-1.png"
+         Style="{StaticResource imagePiepagina}"/>
+   <Label Text="Inicio"
+         Style="{StaticResource lblpiepagina}"/>
+  </StackLayout>
+  <StackLayout 
+               Grid.Column="1">
+   <Image Source="https://i.ibb.co/LztL1Wz/brujula.png"
+          Style="{StaticResource imagePiepagina}" />
+   <Label Text="Tendencias"
+          Style="{StaticResource lblpiepagina}"/>
+  </StackLayout>
+  <Grid HorizontalOptions="Center"
+        VerticalOptions="Start"
+        Grid.Column="2">
+   <BoxView BackgroundColor="#FF02A0"
+            TranslationX="3"
+            CornerRadius="9"
+            VerticalOptions="Start"
+            HeightRequest="33"
+            WidthRequest="45" />
+   <BoxView BackgroundColor="#00DFEF"
+            TranslationX="-3"
+            CornerRadius="9"
+            VerticalOptions="Start"
+            HeightRequest="33"
+            WidthRequest="45"/>
+   <Button CornerRadius="9"
+           FontAttributes="Bold"
+           FontSize="30"
+           BackgroundColor="White"
+           VerticalOptions="Start"
+           HeightRequest="33"
+           WidthRequest="46" />
+   <Label Text="+"
+          FontSize="35"
+          TextColor="Black"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"
+          TranslationY="-8" />
+  </Grid>
+  <StackLayout Grid.Column="3">
+   <Image Source="https://i.ibb.co/CKvk5CQ/comentario-2.png"
+          Style="{StaticResource imagePiepagina}" />
+   <Label Text="Bandeja de entrada+"
+          Style="{StaticResource lblpiepagina}" />
+  </StackLayout>
+  <StackLayout Grid.Column="4">
+   <Image Source="https://i.ibb.co/4JNNXWW/perfil-del-usuario.png"
+          Style="{StaticResource imagePiepagina}"  />
+   <Label Text="Perfil"
+          Style="{StaticResource lblpiepagina}"/>
+  </StackLayout>
+ </Grid>
+</ContentView>

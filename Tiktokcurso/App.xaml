@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tiktokcurso.App">
+ <Application.Resources>
+  <Style  TargetType="Label"
+          x:Key="lblpiepagina"
+          >
+   <Setter Property="LineBreakMode"
+           Value="TailTruncation"/>
+   <Setter Property="FontSize"
+           Value="9" />
+   <Setter Property="FontAttributes"
+           Value="Bold" />
+   <Setter Property="TextColor"
+           Value="White" />
+   <Setter Property="HorizontalTextAlignment"
+           Value="Center" />
+  </Style>
+  <Style TargetType="Image"
+         x:Key="imagePiepagina">
+   <Setter  Property="HeightRequest"
+            Value="22" />
+  </Style>
+ </Application.Resources>
+</Application>

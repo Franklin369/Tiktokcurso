@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tiktokcurso.Vistas.Reproductor.discogiratorio">
+ <Grid >
+  <Image Source="https://i.ibb.co/PC0tq1n/5856b3d14f6ae202fedf2793.png" 
+         HorizontalOptions="Center"
+         VerticalOptions="Center"
+         Aspect="AspectFill"/>
+  <Frame Padding="0" 
+         HeightRequest="30"
+         WidthRequest="30"
+         CornerRadius="15"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         HasShadow="False">
+   <Image Source="https://i.ibb.co/2W563k7/julieta-venegas.jpg"
+          Aspect="AspectFill"/>
+  </Frame>
+ </Grid>
+</ContentView>

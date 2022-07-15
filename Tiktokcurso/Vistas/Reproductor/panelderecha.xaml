@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vistas="clr-namespace:Tiktokcurso.Vistas.Reproductor"
+             x:Class="Tiktokcurso.Vistas.Reproductor.panelderecha">
+ <StackLayout 
+              VerticalOptions="End"
+              WidthRequest="60"
+              Spacing="30"
+              Margin="0,0,15,18">
+  <Grid>
+   <Frame WidthRequest="60"
+          HeightRequest="60"
+          Padding="0"
+          CornerRadius="40"
+          HorizontalOptions="End">
+    <Image Source="https://st4.depositphotos.com/13108546/38298/i/450/depositphotos_382983954-stock-photo-studio-shot-young-beautiful-happy.jpg"
+           Aspect="AspectFill" />
+   </Frame>
+   <Grid HorizontalOptions="Center"
+         VerticalOptions="End"
+         TranslationY="10">
+    <Button HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HeightRequest="30"
+            WidthRequest="30"
+            CornerRadius="15"
+            BackgroundColor="#FE2C55" />
+    <Label Text="+"
+           VerticalOptions="Center"
+           FontSize="22"
+           HorizontalOptions="Center"
+           TextColor="White"
+            />
+   </Grid>
+  </Grid>
+  <StackLayout>
+   <Image Source="https://i.ibb.co/ZW9j2Z8/me-gusta.png"
+          HeightRequest="40" />
+   <Label Text="1.2M"
+          TextColor="White"
+          HorizontalOptions="Center"
+          
+          FontSize="16" />
+  </StackLayout>
+  <StackLayout>
+   <Image Source="https://i.ibb.co/D8x1NLf/chat-de-burbujas.png"
+          HeightRequest="40" />
+   <Label Text="8.1k"
+          TextColor="White"
+          HorizontalOptions="Center"
+        
+          FontSize="16" />
+  </StackLayout>
+  <StackLayout>
+   <Image Source="https://i.ibb.co/vHsH8Yv/compartir-1.png"
+          HeightRequest="40" />
+   <Label Text="1266"
+          FontSize="16"
+          TextColor="White"
+        
+          HorizontalTextAlignment="Center" />
+  </StackLayout>
+  <vistas:discogiratorio />
+ </StackLayout>
+</ContentView>
